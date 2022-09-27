@@ -1,0 +1,106 @@
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.33fr 0.33fr 0.33fr 0.33fr 0.33fr 0.33fr 0.66fr 0.66fr;
+  gap: 1em;
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+}
+.container-element-1 {
+  overflow: hidden;
+  position: relative;
+  background-color: #007f5f;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+.container-element-2 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 1 / 2;
+  grid-row: 4 / 7;
+  background-color: #2b9348;
+}
+.container-element-3 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 2 / 4;
+  grid-row: 1 / 7;
+  background-color: #80b918;
+}
+.container-element-4 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 4 / 6;
+  grid-row: 1 / 3;
+  background-color: #dddf00;
+}
+.container-element-5 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 4 / 6;
+  grid-row: 3 / 5;
+  background-color: #eeef20;
+}
+.container-element-6 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 4 / 6;
+  grid-row: 5 / 7;
+  background-color: #ffff3f;
+}
+.container-element-7 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 1 / 2;
+  grid-row: 7 / 9;
+  background-color: #55a630;
+}
+.container-element-8 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 2 / 3;
+  grid-row: 7 / 8;
+  background-color: #aacc00;
+}
+.container-element-9 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 2 / 3;
+  grid-row: 8 / 9;
+  background-color: #bfd200;
+}
+.container-element-10 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 3 / 5;
+  grid-row: 7 / 9;
+  background-color: #d4d700;
+}
+.container-element-11 {
+  overflow: hidden;
+  position: relative;
+  grid-column: 5 / 6;
+  grid-row: 7 / 9;
+  background-color: #007f5f;
+}
+.text {
+  display: flex;
+  margin-top: 16px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #9bc1bc;
+}
